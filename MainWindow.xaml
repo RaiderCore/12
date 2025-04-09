@@ -1,0 +1,15 @@
+﻿<Window x:Class="TaskSolver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Task Solver" Height="450" Width="800">
+    <Grid>
+        
+        <ComboBox x:Name="TaskSelector" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="10"/>
+
+       
+        <Button x:Name="SolveButton" Content="Выбрать" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="220,10,0,0" Width="100" Click="SolveButton_Click" Height="22"/>
+
+        
+        <TextBox x:Name="ResultBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,50,10,10" IsReadOnly="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+    </Grid>
+</Window>
